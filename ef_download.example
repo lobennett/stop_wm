@@ -1,0 +1,7 @@
+-----BEGIN OPENSSH PRIVATE KEY-----
+blahblahblahblahblahblahblahblahblahblahthisisnotarealprivatekey
+reachouttologanfortherealprivatekeyinordertopullthedatafromserver
+...
+[rest of private key content]
+...
+-----END OPENSSH PRIVATE KEY-----
