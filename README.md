@@ -54,7 +54,7 @@ This repository provides a complete pipeline for analyzing experimental data fro
 Before running any analysis, you must download the raw data from the Expfactory Deploy server:
 
 ```bash
-# Set up authentication key (contact logan or ross for real key)
+# Set up authentication key (contact Logan for real key)
 cp ef_download.example ef_download
 
 # Then download data from server
@@ -135,5 +135,4 @@ The analysis pipeline uses an object-oriented design with task-specific analyzer
 
 ### Shared Utilities
 - `parse_survey_response()` - Parses JSON survey responses
-- `calculate_accuracy()` - Computes accuracy
-- `calculate_omission_rate()` - Computes omission rates
+- `calculate_ratio()` - Used to compute accuracy and omission rate
